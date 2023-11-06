@@ -1,10 +1,5 @@
 # Reactiveapplication
 
-Front page of the Superhero entry form
-![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/b8ac8b5f-4144-4f4d-b966-5fbebbe4e55d)
-
- After clicking on Submit button, entered field values afre showing
- ![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/ba68d218-8985-40a6-b28c-f02e4c7c63e7)
 
 
 
