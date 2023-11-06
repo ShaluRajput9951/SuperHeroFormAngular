@@ -1,30 +1,27 @@
-<div>
-  <h2 style="color: blue;">Super Heroes Application Form</h2>
+<div class="form-container">
+  <h2>Super Heroes Application Form</h2>
   <form (ngSubmit)="onSubmit()">
     <div>
-      <label for="name" style="color: blue;">Enter Your Name:</label>
-
+      <label for="name">Enter Your Name:</label>
       <input type="text" id="name" name="name" [(ngModel)]="userName" required>
     </div>
 
     <div>
-      <label for="team" style="color:blue">Select a Team:</label>
-      <select id="team" name="team" [(ngModel)]="selectedTeam" required>
-        <option value="Justice League" style="color: blue;">Justice League</option>
-
-        <option value="Avengers" style="color: blue;">Avengers</option>
+      <label for="team">Select a Team:</label>
+      <select id="team" name="team" [(ngModel)]="selectedTeam" (change)="onTeamChange($event)" required>
+        <option value="Justice League" style="color:blue">Justice League</option>
+        <option value="Avengers" style="color: red">Avengers</option>
       </select>
     </div>
-        <div>
-      <button class="btn btn-primary" style="color: blue;" (click)="onSubmit()">Submit</button>
-
+    <div>
+      <button class="btn btn-primary" (click)="onSubmit()">Submit</button>
     </div>
-    <div *ngIf="entries.length > 0">
-      <h2 style="color: blue;">Entries:</h2>
+    <div *ngIf="entries.length > 0" class="entries-container">
+      <h2>Entries:</h2>
       <ul>
         <li *ngFor="let entry of entries">
-          <p style="color: blue;">Name: {{ entry.name }}</p>
-          <p style="color: blue;">Team: {{ entry.team }}</p>
+          <p [ngClass]="{'blue-text': entry.team === 'Justice League', 'red-text': entry.team === 'Avengers'}">Name: {{ entry.name }}</p>
+          <p [ngClass]="{'blue-text': entry.team === 'Justice League', 'red-text': entry.team === 'Avengers'}">Team: {{ entry.team }}</p>
         </li>
       </ul>
     </div>

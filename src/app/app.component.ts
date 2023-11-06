@@ -30,5 +30,10 @@ export class AppComponent {
     
     
   }
+
+  onTeamChange(event: any) {
+    this.selectedTeam = event.target.value;
+  }
+
 }
 
