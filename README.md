@@ -8,6 +8,9 @@ Selecting a team from dropdown
 After Submitting the form
 ![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/4e74519a-c438-4b91-bb6b-2282301628f4)
 
+![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/97f0adca-e277-4999-bce4-5d2f666f34ff)
+
+
 
 
 
