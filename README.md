@@ -1,4 +1,15 @@
 # Reactiveapplication
+Front Page of the Super Heroes Form
+![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/f70b837a-28bf-4526-928c-0b9b1d841a67)
+
+Selecting a team from dropdown
+![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/7cc9001d-2d03-405c-b717-dcbda42d85fe)
+
+After Submitting the form
+![image](https://github.com/ShaluRajput9951/SuperHeroFormAngular/assets/56314666/4e74519a-c438-4b91-bb6b-2282301628f4)
+
+
+
 
 
 
